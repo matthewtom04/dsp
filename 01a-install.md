@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
-Python 3 was installed because Python 3 is considered to be the recommended version.
+Python 3 was installed because Python 3 is needed to do the HackerRank Python pre-work required for the bootcamp/
 
 ### Q2. Which Python Version Installed   
 
