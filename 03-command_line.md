@@ -20,7 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1) pwd - show current working directory path
+2) mkdir - creating a directory
+3) rmdir - deleting a directory
+4) touch < filename > - creating a file using 'touch' command
+5) rm - deleting a file
+6) mv - renames/move file
+7) ls - a - lists all the hidden files
+8) cp - copying a file from one director to another
+9) wc - tells you how many lines and characters are in the file
+10) cd - returns to home directory
+
+
 
 ---
 
@@ -35,7 +46,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1) ls - list files
+2) ls - a - list all of the hidden files
+3) ls - l - lists all the details of the file ('long format')
+4) ls -lh - lists all files in long format and by size.
+5) ls -lah - lists all files and hidden files in long format and the size of the file.
+6) ls -t - sorts list by time
+7) ls -Glp - Shows a list that enables color, lists in long format, and writes a slash ('/') after every directory.
 
 ---
 
@@ -43,7 +60,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+My favorite commands are:
+1) ls -la
+2) ls - u
+3) ls -g 
+4) ls -d
+5) ls -ac
+
 
 ---
 
@@ -51,7 +74,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs - is a command that builds and execute commands from standard inputs.
+example:
+echo 'one two three' | xargs mkdir - makes directorys 'one','two', and 'three'.
 
  
 
