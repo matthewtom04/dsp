@@ -6,7 +6,7 @@ Solution :
 - The average weight of the first born babies are 7.20 lbs and the average weight of the other born babies are 7.33 lbs. 
 First babies are lighter than other born babies. 
 - The cohen d is -0.089.
-
+```
 Python Code:
 
 
@@ -50,3 +50,4 @@ print('First babies are lighter than others by %r ounces.' %(abs(x1-x2)*16))
 print('The cohen d is %r' %d)
 
 
+```
