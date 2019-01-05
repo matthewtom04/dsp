@@ -4,7 +4,7 @@
 Solution:
 The plot is normally distributed.
 
-
+'''
 Python:
 import numpy as np
 import thinkstats2
@@ -25,3 +25,4 @@ thinkplot.Config(xlabel='Random variate', ylabel='PMF')
 plot CDF
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random variate', ylabel='CDF')
+'''
