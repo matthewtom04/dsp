@@ -18,10 +18,10 @@ cdf = thinkstats2.Cdf(rand, label = 'CDF')
 
 width = 0.4 / 16
 
-# plot PMFs 
+plot PMFs 
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Random variate', ylabel='PMF')
 
-# plot CDF
+plot CDF
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random variate', ylabel='CDF')
