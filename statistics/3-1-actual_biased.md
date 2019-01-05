@@ -3,7 +3,7 @@
 Solution:
 - The mean of actual :1.024205155043831
 - The mean of biased : 2.403679100664282
-
+```
 Python:
 import thinkstats2
 import thinkplot
@@ -33,3 +33,4 @@ thinkplot.show(xlabel='Number of Children', ylabel = 'PMF')
 #The means of the actual and biased
 print('The mean of actual {}'. format(pmf.Mean()))
 print('The mean of biased {}'. format(biased_pmf.Mean()))
+```
